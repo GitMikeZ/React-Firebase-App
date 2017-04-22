@@ -7,7 +7,7 @@ import firebase from 'firebase';
 class App extends Component {
     componentWillMount() {
         firebase.initializeApp({
-            apiKey: "AIzaSyA8WzlYLZVmNktrpObCFhy-kVkYDtvCl4M",
+            apiKey: "API-KEY",
             authDomain: "authentication-618c7.firebaseapp.com",
             databaseURL: "https://authentication-618c7.firebaseio.com",
             projectId: "authentication-618c7",
